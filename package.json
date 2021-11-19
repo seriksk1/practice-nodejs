@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start1": "nodemon path.js",
-    "start2": "nodemon fs.js",
-    "start3": "nodemon os.js",
+    "start-task-1": "nodemon 'public lesson/task_1.js'",
+    "start-task-2": "nodemon 'public lesson/task_2.js'",
+    "server": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Skorin Serhii <seriksk1@ukr.net>",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
     "nodemon": "^2.0.15"
   }
 }
